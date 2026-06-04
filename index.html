@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Nib</title>
+<meta name="description" content="Privacy policy for the Nib browser extension.">
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+         line-height: 1.6; color: #1f2937; background: #ffffff;
+         max-width: 720px; margin: 0 auto; padding: 48px 22px 80px; }
+  h1 { font-size: 28px; margin: 0 0 4px; color: #4f46e5; }
+  .eff { color: #6b7280; font-size: 14px; margin: 0 0 28px; }
+  h2 { font-size: 18px; margin: 30px 0 8px; }
+  p, li { font-size: 15px; }
+  ul { padding-left: 22px; }
+  a { color: #4f46e5; }
+  strong { color: #111827; }
+  footer { margin-top: 40px; color: #9ca3af; font-size: 13px; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e5e7eb; background: #0b1020; }
+    strong { color: #f9fafb; } h1 { color: #a5b4fc; } a { color: #a5b4fc; }
+  }
+</style>
+</head>
+<body>
+  <h1>Privacy Policy — Nib</h1>
+  <p class="eff">Effective date: June 4, 2026</p>
+
+  <h2>What this extension does</h2>
+  <p>Nib lets you select text in an editable field on a website and rewrite it using
+  AI. It activates <strong>only</strong> when you select text and click "Rephrase."</p>
+
+  <h2>What we process</h2>
+  <p>When you click "Rephrase," the text you selected is sent to our backend endpoint
+  (an Azure Function we operate), which forwards it to <strong>Microsoft Azure
+  OpenAI</strong> to generate a rewritten version that is returned to you. We process
+  <strong>only</strong> the text you explicitly select for rephrasing.</p>
+
+  <h2>What we do NOT do</h2>
+  <ul>
+    <li>We do <strong>not</strong> store or log the text you send. It is processed in
+    memory to fulfill your request and then discarded.</li>
+    <li>We do <strong>not</strong> require accounts or collect any identifying
+    information.</li>
+    <li>We do <strong>not</strong> use analytics, tracking, or advertising.</li>
+    <li>We do <strong>not</strong> sell or share your data with anyone, for any
+    purpose other than generating your rephrased text.</li>
+  </ul>
+
+  <h2>Third-party processing</h2>
+  <p>Text is processed by <strong>Microsoft Azure OpenAI Service</strong> to produce
+  the rewrite, acting as our service provider. Microsoft does not use Azure OpenAI
+  input/output to train its models. See Microsoft's data, privacy, and security
+  documentation for the Azure OpenAI Service for details.</p>
+
+  <h2>Data retention</h2>
+  <p>None. We keep no copy of your selected text or the AI output.</p>
+
+  <h2>Security</h2>
+  <p>Your selected text is transmitted over HTTPS. The AI provider's API key is held
+  only on our server (the Azure Function) and is never included in the extension.</p>
+
+  <h2>Permissions</h2>
+  <p>The extension runs on the websites where you write so it can detect your text
+  selection and show its interface. It reads <strong>only</strong> the text you
+  actively select — never page content at large, and never on its own.</p>
+
+  <h2>Children</h2>
+  <p>This extension is not directed to children under 13.</p>
+
+  <h2>Changes</h2>
+  <p>We may update this policy. The effective date above will change accordingly.</p>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:saisanjaymarnidev@gmail.com">saisanjaymarnidev@gmail.com</a></p>
+
+  <footer>Nib — Inline AI Rephrase</footer>
+</body>
+</html>
